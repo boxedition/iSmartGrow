@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C49AED02AEAD966007FAC06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AECF2AEAD966007FAC06 /* AppDelegate.swift */; };
+		9C49AED22AEAD966007FAC06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AED12AEAD966007FAC06 /* SceneDelegate.swift */; };
+		9C49AED42AEAD966007FAC06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AED32AEAD966007FAC06 /* ViewController.swift */; };
+		9C49AED72AEAD966007FAC06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C49AED52AEAD966007FAC06 /* Main.storyboard */; };
+		9C49AED92AEAD968007FAC06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C49AED82AEAD968007FAC06 /* Assets.xcassets */; };
+		9C49AEDC2AEAD968007FAC06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C49AEDA2AEAD968007FAC06 /* LaunchScreen.storyboard */; };
+		9C49AEE72AEAD968007FAC06 /* SmartGrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AEE62AEAD968007FAC06 /* SmartGrowTests.swift */; };
+		9C49AEF12AEAD968007FAC06 /* SmartGrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AEF02AEAD968007FAC06 /* SmartGrowUITests.swift */; };
+		9C49AEF32AEAD968007FAC06 /* SmartGrowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AEF22AEAD968007FAC06 /* SmartGrowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C49AEE32AEAD968007FAC06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C49AEC42AEAD966007FAC06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C49AECB2AEAD966007FAC06;
+			remoteInfo = SmartGrow;
+		};
+		9C49AEED2AEAD968007FAC06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C49AEC42AEAD966007FAC06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C49AECB2AEAD966007FAC06;
+			remoteInfo = SmartGrow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C49AECC2AEAD966007FAC06 /* SmartGrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C49AECF2AEAD966007FAC06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C49AED12AEAD966007FAC06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C49AED32AEAD966007FAC06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C49AED62AEAD966007FAC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C49AED82AEAD968007FAC06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C49AEDB2AEAD968007FAC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C49AEDD2AEAD968007FAC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C49AEE22AEAD968007FAC06 /* SmartGrowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartGrowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C49AEE62AEAD968007FAC06 /* SmartGrowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGrowTests.swift; sourceTree = "<group>"; };
+		9C49AEEC2AEAD968007FAC06 /* SmartGrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartGrowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C49AEF02AEAD968007FAC06 /* SmartGrowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGrowUITests.swift; sourceTree = "<group>"; };
+		9C49AEF22AEAD968007FAC06 /* SmartGrowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGrowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C49AEC92AEAD966007FAC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49AEDF2AEAD968007FAC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49AEE92AEAD968007FAC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C49AEC32AEAD966007FAC06 = {
+			isa = PBXGroup;
+			children = (
+				9C49AECE2AEAD966007FAC06 /* SmartGrow */,
+				9C49AEE52AEAD968007FAC06 /* SmartGrowTests */,
+				9C49AEEF2AEAD968007FAC06 /* SmartGrowUITests */,
+				9C49AECD2AEAD966007FAC06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C49AECD2AEAD966007FAC06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C49AECC2AEAD966007FAC06 /* SmartGrow.app */,
+				9C49AEE22AEAD968007FAC06 /* SmartGrowTests.xctest */,
+				9C49AEEC2AEAD968007FAC06 /* SmartGrowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C49AECE2AEAD966007FAC06 /* SmartGrow */ = {
+			isa = PBXGroup;
+			children = (
+				9C49AECF2AEAD966007FAC06 /* AppDelegate.swift */,
+				9C49AED12AEAD966007FAC06 /* SceneDelegate.swift */,
+				9C49AED32AEAD966007FAC06 /* ViewController.swift */,
+				9C49AED52AEAD966007FAC06 /* Main.storyboard */,
+				9C49AED82AEAD968007FAC06 /* Assets.xcassets */,
+				9C49AEDA2AEAD968007FAC06 /* LaunchScreen.storyboard */,
+				9C49AEDD2AEAD968007FAC06 /* Info.plist */,
+			);
+			path = SmartGrow;
+			sourceTree = "<group>";
+		};
+		9C49AEE52AEAD968007FAC06 /* SmartGrowTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C49AEE62AEAD968007FAC06 /* SmartGrowTests.swift */,
+			);
+			path = SmartGrowTests;
+			sourceTree = "<group>";
+		};
+		9C49AEEF2AEAD968007FAC06 /* SmartGrowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C49AEF02AEAD968007FAC06 /* SmartGrowUITests.swift */,
+				9C49AEF22AEAD968007FAC06 /* SmartGrowUITestsLaunchTests.swift */,
+			);
+			path = SmartGrowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C49AECB2AEAD966007FAC06 /* SmartGrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C49AEF62AEAD968007FAC06 /* Build configuration list for PBXNativeTarget "SmartGrow" */;
+			buildPhases = (
+				9C49AEC82AEAD966007FAC06 /* Sources */,
+				9C49AEC92AEAD966007FAC06 /* Frameworks */,
+				9C49AECA2AEAD966007FAC06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartGrow;
+			productName = SmartGrow;
+			productReference = 9C49AECC2AEAD966007FAC06 /* SmartGrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C49AEE12AEAD968007FAC06 /* SmartGrowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C49AEF92AEAD968007FAC06 /* Build configuration list for PBXNativeTarget "SmartGrowTests" */;
+			buildPhases = (
+				9C49AEDE2AEAD968007FAC06 /* Sources */,
+				9C49AEDF2AEAD968007FAC06 /* Frameworks */,
+				9C49AEE02AEAD968007FAC06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C49AEE42AEAD968007FAC06 /* PBXTargetDependency */,
+			);
+			name = SmartGrowTests;
+			productName = SmartGrowTests;
+			productReference = 9C49AEE22AEAD968007FAC06 /* SmartGrowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C49AEEB2AEAD968007FAC06 /* SmartGrowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C49AEFC2AEAD968007FAC06 /* Build configuration list for PBXNativeTarget "SmartGrowUITests" */;
+			buildPhases = (
+				9C49AEE82AEAD968007FAC06 /* Sources */,
+				9C49AEE92AEAD968007FAC06 /* Frameworks */,
+				9C49AEEA2AEAD968007FAC06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C49AEEE2AEAD968007FAC06 /* PBXTargetDependency */,
+			);
+			name = SmartGrowUITests;
+			productName = SmartGrowUITests;
+			productReference = 9C49AEEC2AEAD968007FAC06 /* SmartGrowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C49AEC42AEAD966007FAC06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9C49AECB2AEAD966007FAC06 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					9C49AEE12AEAD968007FAC06 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9C49AECB2AEAD966007FAC06;
+					};
+					9C49AEEB2AEAD968007FAC06 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9C49AECB2AEAD966007FAC06;
+					};
+				};
+			};
+			buildConfigurationList = 9C49AEC72AEAD966007FAC06 /* Build configuration list for PBXProject "SmartGrow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C49AEC32AEAD966007FAC06;
+			productRefGroup = 9C49AECD2AEAD966007FAC06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C49AECB2AEAD966007FAC06 /* SmartGrow */,
+				9C49AEE12AEAD968007FAC06 /* SmartGrowTests */,
+				9C49AEEB2AEAD968007FAC06 /* SmartGrowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C49AECA2AEAD966007FAC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C49AEDC2AEAD968007FAC06 /* LaunchScreen.storyboard in Resources */,
+				9C49AED92AEAD968007FAC06 /* Assets.xcassets in Resources */,
+				9C49AED72AEAD966007FAC06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49AEE02AEAD968007FAC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49AEEA2AEAD968007FAC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C49AEC82AEAD966007FAC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C49AED42AEAD966007FAC06 /* ViewController.swift in Sources */,
+				9C49AED02AEAD966007FAC06 /* AppDelegate.swift in Sources */,
+				9C49AED22AEAD966007FAC06 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49AEDE2AEAD968007FAC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C49AEE72AEAD968007FAC06 /* SmartGrowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49AEE82AEAD968007FAC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C49AEF12AEAD968007FAC06 /* SmartGrowUITests.swift in Sources */,
+				9C49AEF32AEAD968007FAC06 /* SmartGrowUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C49AEE42AEAD968007FAC06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C49AECB2AEAD966007FAC06 /* SmartGrow */;
+			targetProxy = 9C49AEE32AEAD968007FAC06 /* PBXContainerItemProxy */;
+		};
+		9C49AEEE2AEAD968007FAC06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C49AECB2AEAD966007FAC06 /* SmartGrow */;
+			targetProxy = 9C49AEED2AEAD968007FAC06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C49AED52AEAD966007FAC06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C49AED62AEAD966007FAC06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C49AEDA2AEAD968007FAC06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C49AEDB2AEAD968007FAC06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C49AEF42AEAD968007FAC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C49AEF52AEAD968007FAC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C49AEF72AEAD968007FAC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartGrow/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SmartGrow;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.SmartGrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C49AEF82AEAD968007FAC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartGrow/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SmartGrow;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.SmartGrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C49AEFA2AEAD968007FAC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.SmartGrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartGrow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartGrow";
+			};
+			name = Debug;
+		};
+		9C49AEFB2AEAD968007FAC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.SmartGrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartGrow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartGrow";
+			};
+			name = Release;
+		};
+		9C49AEFD2AEAD968007FAC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.SmartGrowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartGrow;
+			};
+			name = Debug;
+		};
+		9C49AEFE2AEAD968007FAC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.SmartGrowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartGrow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C49AEC72AEAD966007FAC06 /* Build configuration list for PBXProject "SmartGrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C49AEF42AEAD968007FAC06 /* Debug */,
+				9C49AEF52AEAD968007FAC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C49AEF62AEAD968007FAC06 /* Build configuration list for PBXNativeTarget "SmartGrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C49AEF72AEAD968007FAC06 /* Debug */,
+				9C49AEF82AEAD968007FAC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C49AEF92AEAD968007FAC06 /* Build configuration list for PBXNativeTarget "SmartGrowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C49AEFA2AEAD968007FAC06 /* Debug */,
+				9C49AEFB2AEAD968007FAC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C49AEFC2AEAD968007FAC06 /* Build configuration list for PBXNativeTarget "SmartGrowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C49AEFD2AEAD968007FAC06 /* Debug */,
+				9C49AEFE2AEAD968007FAC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C49AEC42AEAD966007FAC06 /* Project object */;
+}
