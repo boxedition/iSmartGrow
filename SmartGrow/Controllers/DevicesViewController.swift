@@ -22,6 +22,10 @@ class DevicesViewController: UIViewController {
         Device(name: "Coentros", status: "Bad"),
         Device(name: "Alface", status: "Excelente"),
         Device(name: "Batatas", status: "Normal"),
+        Device(name: "Maceira", status: "Excelente"),
+        Device(name: "Laranjeira", status: "Normal"),
+        Device(name: "Rosas", status: "Excelente"),
+        Device(name: "Orquideas", status: "Normal"),
     ]
     
     var extimatedWidth = 150
