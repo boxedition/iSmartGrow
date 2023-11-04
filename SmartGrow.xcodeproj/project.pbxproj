@@ -3,19 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9C49AED02AEAD966007FAC06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AECF2AEAD966007FAC06 /* AppDelegate.swift */; };
 		9C49AED22AEAD966007FAC06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AED12AEAD966007FAC06 /* SceneDelegate.swift */; };
-		9C49AED42AEAD966007FAC06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AED32AEAD966007FAC06 /* ViewController.swift */; };
+		9C49AED42AEAD966007FAC06 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AED32AEAD966007FAC06 /* HomeViewController.swift */; };
 		9C49AED72AEAD966007FAC06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C49AED52AEAD966007FAC06 /* Main.storyboard */; };
 		9C49AED92AEAD968007FAC06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C49AED82AEAD968007FAC06 /* Assets.xcassets */; };
 		9C49AEDC2AEAD968007FAC06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C49AEDA2AEAD968007FAC06 /* LaunchScreen.storyboard */; };
 		9C49AEE72AEAD968007FAC06 /* SmartGrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AEE62AEAD968007FAC06 /* SmartGrowTests.swift */; };
 		9C49AEF12AEAD968007FAC06 /* SmartGrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AEF02AEAD968007FAC06 /* SmartGrowUITests.swift */; };
 		9C49AEF32AEAD968007FAC06 /* SmartGrowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AEF22AEAD968007FAC06 /* SmartGrowUITestsLaunchTests.swift */; };
+		9C9FCE152AEEF7AA00F96ED6 /* DevicesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FCE132AEEF7AA00F96ED6 /* DevicesCell.swift */; };
+		9C9FCE162AEEF7AA00F96ED6 /* DevicesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9FCE142AEEF7AA00F96ED6 /* DevicesCell.xib */; };
+		9C9FCE192AEF25C200F96ED6 /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FCE182AEF25C200F96ED6 /* DevicesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		9C49AECC2AEAD966007FAC06 /* SmartGrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C49AECF2AEAD966007FAC06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C49AED12AEAD966007FAC06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C49AED32AEAD966007FAC06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C49AED32AEAD966007FAC06 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9C49AED62AEAD966007FAC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C49AED82AEAD968007FAC06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C49AEDB2AEAD968007FAC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		9C49AEEC2AEAD968007FAC06 /* SmartGrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartGrowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C49AEF02AEAD968007FAC06 /* SmartGrowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGrowUITests.swift; sourceTree = "<group>"; };
 		9C49AEF22AEAD968007FAC06 /* SmartGrowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGrowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C9FCE132AEEF7AA00F96ED6 /* DevicesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesCell.swift; sourceTree = "<group>"; };
+		9C9FCE142AEEF7AA00F96ED6 /* DevicesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DevicesCell.xib; sourceTree = "<group>"; };
+		9C9FCE182AEF25C200F96ED6 /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,10 @@
 		9C49AECE2AEAD966007FAC06 /* SmartGrow */ = {
 			isa = PBXGroup;
 			children = (
+				9C9FCE172AEF257500F96ED6 /* Controllers */,
+				9C9FCE0F2AEEF60000F96ED6 /* Devices */,
 				9C49AECF2AEAD966007FAC06 /* AppDelegate.swift */,
 				9C49AED12AEAD966007FAC06 /* SceneDelegate.swift */,
-				9C49AED32AEAD966007FAC06 /* ViewController.swift */,
 				9C49AED52AEAD966007FAC06 /* Main.storyboard */,
 				9C49AED82AEAD968007FAC06 /* Assets.xcassets */,
 				9C49AEDA2AEAD968007FAC06 /* LaunchScreen.storyboard */,
@@ -125,6 +132,32 @@
 				9C49AEF22AEAD968007FAC06 /* SmartGrowUITestsLaunchTests.swift */,
 			);
 			path = SmartGrowUITests;
+			sourceTree = "<group>";
+		};
+		9C9FCE0F2AEEF60000F96ED6 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				9C9FCE122AEEF74500F96ED6 /* Cell */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		9C9FCE122AEEF74500F96ED6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9C9FCE132AEEF7AA00F96ED6 /* DevicesCell.swift */,
+				9C9FCE142AEEF7AA00F96ED6 /* DevicesCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9C9FCE172AEF257500F96ED6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C9FCE182AEF25C200F96ED6 /* DevicesViewController.swift */,
+				9C49AED32AEAD966007FAC06 /* HomeViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +240,7 @@
 				};
 			};
 			buildConfigurationList = 9C49AEC72AEAD966007FAC06 /* Build configuration list for PBXProject "SmartGrow" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -234,6 +267,7 @@
 				9C49AEDC2AEAD968007FAC06 /* LaunchScreen.storyboard in Resources */,
 				9C49AED92AEAD968007FAC06 /* Assets.xcassets in Resources */,
 				9C49AED72AEAD966007FAC06 /* Main.storyboard in Resources */,
+				9C9FCE162AEEF7AA00F96ED6 /* DevicesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C49AED42AEAD966007FAC06 /* ViewController.swift in Sources */,
+				9C49AED42AEAD966007FAC06 /* HomeViewController.swift in Sources */,
+				9C9FCE192AEF25C200F96ED6 /* DevicesViewController.swift in Sources */,
 				9C49AED02AEAD966007FAC06 /* AppDelegate.swift in Sources */,
 				9C49AED22AEAD966007FAC06 /* SceneDelegate.swift in Sources */,
+				9C9FCE152AEEF7AA00F96ED6 /* DevicesCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -449,6 +485,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +497,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -470,8 +507,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SmartGrow/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SmartGrow;
@@ -479,6 +518,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,11 +526,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.SmartGrow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
