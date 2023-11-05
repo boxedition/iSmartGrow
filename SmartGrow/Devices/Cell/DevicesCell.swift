@@ -15,12 +15,13 @@ class DevicesCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.cornerRadius=10
+        self.layer.shadowColor = CGColor(red: 0, green: 0, blue: 0, alpha: 0.7)
         self.layer.shadowOpacity = 1
         self.layer.shadowOffset = .zero
         self.layer.shadowRadius = 10.0
+        self.layer.shadowOffset = CGSize(width: 10, height: 10)
         self.layer.shouldRasterize =  true
-        self.layer.shadowPath = UIBezierPath(rect: self.bounds).cgPath
     }
     
     func setCellData (name: String, status:String){
