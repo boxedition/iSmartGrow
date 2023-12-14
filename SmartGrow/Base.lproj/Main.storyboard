@@ -1,104 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XS1-pl-AUw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cjl-Ii-wde">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
-        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Home View Controller-->
+        <scene sceneID="1dZ-Ew-4iO">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="SmartGrow" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="jhv-4h-t8s" customClass="HomeViewController" customModule="SmartGrow" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9qW-19-Vid">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="f8h-7q-EqP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="sL0-51-fHq"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="131" y="-70"/>
-        </scene>
-        <!--Devices-->
-        <scene sceneID="aHZ-9U-Z3W">
-            <objects>
-                <viewController id="nmH-mB-2MJ" customClass="DevicesViewController" customModule="SmartGrow" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fhd-SO-hmS">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tUU-5I-ksw">
-                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="V28-an-iMh">
-                                    <size key="itemSize" width="150" height="215"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="16" minY="16" maxX="16" maxY="16"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="5DB-zk-QXT">
-                                        <rect key="frame" x="16" y="16" width="150" height="215"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="i3D-8i-ysi">
-                                            <rect key="frame" x="0.0" y="0.0" width="150" height="215"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="BTb-Is-PFB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="tUU-5I-ksw" firstAttribute="leading" secondItem="BTb-Is-PFB" secondAttribute="leading" id="0c6-0Y-igM"/>
-                            <constraint firstItem="tUU-5I-ksw" firstAttribute="top" secondItem="BTb-Is-PFB" secondAttribute="top" id="0kk-ji-ZPC"/>
-                            <constraint firstItem="tUU-5I-ksw" firstAttribute="top" secondItem="BTb-Is-PFB" secondAttribute="top" id="Dgv-vx-wZ0"/>
-                            <constraint firstItem="BTb-Is-PFB" firstAttribute="bottom" secondItem="tUU-5I-ksw" secondAttribute="bottom" id="EkR-V9-klk"/>
-                            <constraint firstItem="tUU-5I-ksw" firstAttribute="leading" secondItem="BTb-Is-PFB" secondAttribute="leading" id="bms-IP-Za4"/>
-                            <constraint firstItem="tUU-5I-ksw" firstAttribute="trailing" secondItem="BTb-Is-PFB" secondAttribute="trailing" id="m7H-xV-5oT"/>
-                            <constraint firstItem="tUU-5I-ksw" firstAttribute="bottom" secondItem="BTb-Is-PFB" secondAttribute="bottom" id="tK6-mB-DaW"/>
-                            <constraint firstItem="BTb-Is-PFB" firstAttribute="trailing" secondItem="tUU-5I-ksw" secondAttribute="trailing" id="uA6-wk-Nsg"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Devices" image="drop.keypad.rectangle" catalog="system" id="Wah-0T-c2F"/>
+                    <navigationItem key="navigationItem" id="lQm-5j-o2J"/>
                     <connections>
-                        <outlet property="DevicesCollectionView" destination="tUU-5I-ksw" id="rDN-D1-ASo"/>
+                        <outlet property="imgCenter" destination="lQm-5j-o2J" id="936-eK-Wrb"/>
+                        <outlet property="imgLeft" destination="lQm-5j-o2J" id="KQ3-sb-qgm"/>
+                        <outlet property="imgRight" destination="lQm-5j-o2J" id="id1-O0-t97"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DZm-Jm-Sd7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mC9-HL-Xtl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907.63358778625945" y="-70.422535211267615"/>
+            <point key="canvasLocation" x="1363" y="-533"/>
         </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="6IY-cg-t4Y">
+        <!--Navigation Controller-->
+        <scene sceneID="bwo-B9-qqh">
             <objects>
-                <tabBarController id="XS1-pl-AUw" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vvz-48-Hxn">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Cjl-Ii-wde" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1RR-AI-KX5">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="EkY-dq-soR"/>
-                        <segue destination="nmH-mB-2MJ" kind="relationship" relationship="viewControllers" id="p8f-7J-0SY"/>
+                        <segue destination="jhv-4h-t8s" kind="relationship" relationship="rootViewController" id="1bY-UG-MFb"/>
                     </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hjI-hm-nS1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wup-8O-rff" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131" y="-806"/>
+            <point key="canvasLocation" x="678.62595419847321" y="-533.09859154929575"/>
         </scene>
     </scenes>
     <resources>
-        <image name="drop.keypad.rectangle" catalog="system" width="128" height="89"/>
-        <image name="house" catalog="system" width="128" height="104"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
