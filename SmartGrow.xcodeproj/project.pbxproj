@@ -16,6 +16,9 @@
 		9C49AEE72AEAD968007FAC06 /* SmartGrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AEE62AEAD968007FAC06 /* SmartGrowTests.swift */; };
 		9C49AEF12AEAD968007FAC06 /* SmartGrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AEF02AEAD968007FAC06 /* SmartGrowUITests.swift */; };
 		9C49AEF32AEAD968007FAC06 /* SmartGrowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49AEF22AEAD968007FAC06 /* SmartGrowUITestsLaunchTests.swift */; };
+		9C65D5462B40C28200531985 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C65D5452B40C28200531985 /* DetailViewController.swift */; };
+		9C65D54C2B40C75500531985 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C65D54A2B40C75500531985 /* DeviceTableViewCell.swift */; };
+		9C65D54D2B40C75500531985 /* DeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C65D54B2B40C75500531985 /* DeviceTableViewCell.xib */; };
 		9C9FCE152AEEF7AA00F96ED6 /* DevicesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FCE132AEEF7AA00F96ED6 /* DevicesCell.swift */; };
 		9C9FCE162AEEF7AA00F96ED6 /* DevicesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9FCE142AEEF7AA00F96ED6 /* DevicesCell.xib */; };
 		9C9FCE192AEF25C200F96ED6 /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FCE182AEF25C200F96ED6 /* DevicesViewController.swift */; };
@@ -52,6 +55,9 @@
 		9C49AEEC2AEAD968007FAC06 /* SmartGrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartGrowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C49AEF02AEAD968007FAC06 /* SmartGrowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGrowUITests.swift; sourceTree = "<group>"; };
 		9C49AEF22AEAD968007FAC06 /* SmartGrowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGrowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C65D5452B40C28200531985 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9C65D54A2B40C75500531985 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		9C65D54B2B40C75500531985 /* DeviceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceTableViewCell.xib; sourceTree = "<group>"; };
 		9C9FCE132AEEF7AA00F96ED6 /* DevicesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesCell.swift; sourceTree = "<group>"; };
 		9C9FCE142AEEF7AA00F96ED6 /* DevicesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DevicesCell.xib; sourceTree = "<group>"; };
 		9C9FCE182AEF25C200F96ED6 /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +111,7 @@
 		9C49AECE2AEAD966007FAC06 /* SmartGrow */ = {
 			isa = PBXGroup;
 			children = (
+				9C65D5492B40C6DD00531985 /* Cell */,
 				9C9FCE172AEF257500F96ED6 /* Controllers */,
 				9C9FCE0F2AEEF60000F96ED6 /* Devices */,
 				9C49AECF2AEAD966007FAC06 /* AppDelegate.swift */,
@@ -134,6 +141,15 @@
 			path = SmartGrowUITests;
 			sourceTree = "<group>";
 		};
+		9C65D5492B40C6DD00531985 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9C65D54A2B40C75500531985 /* DeviceTableViewCell.swift */,
+				9C65D54B2B40C75500531985 /* DeviceTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		9C9FCE0F2AEEF60000F96ED6 /* Devices */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +172,7 @@
 			children = (
 				9C9FCE182AEF25C200F96ED6 /* DevicesViewController.swift */,
 				9C49AED32AEAD966007FAC06 /* HomeViewController.swift */,
+				9C65D5452B40C28200531985 /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -268,6 +285,7 @@
 				9C49AED92AEAD968007FAC06 /* Assets.xcassets in Resources */,
 				9C49AED72AEAD966007FAC06 /* Main.storyboard in Resources */,
 				9C9FCE162AEEF7AA00F96ED6 /* DevicesCell.xib in Resources */,
+				9C65D54D2B40C75500531985 /* DeviceTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +313,10 @@
 				9C49AED42AEAD966007FAC06 /* HomeViewController.swift in Sources */,
 				9C9FCE192AEF25C200F96ED6 /* DevicesViewController.swift in Sources */,
 				9C49AED02AEAD966007FAC06 /* AppDelegate.swift in Sources */,
+				9C65D5462B40C28200531985 /* DetailViewController.swift in Sources */,
 				9C49AED22AEAD966007FAC06 /* SceneDelegate.swift in Sources */,
 				9C9FCE152AEEF7AA00F96ED6 /* DevicesCell.swift in Sources */,
+				9C65D54C2B40C75500531985 /* DeviceTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

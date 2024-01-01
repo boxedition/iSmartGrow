@@ -8,8 +8,8 @@
 import UIKit
 
 struct Device {
-    var name: String
-    var status: String
+    var imei: String
+    var label: String?
 }
 
 class DevicesViewController: UIViewController {
@@ -18,14 +18,14 @@ class DevicesViewController: UIViewController {
     
     //Dummy data
     let data: [Device] = [
-        Device(name: "Salsa", status: "Good"),
-        Device(name: "Coentros", status: "Bad"),
-        Device(name: "Alface", status: "Excelente"),
-        Device(name: "Batatas", status: "Normal"),
-        Device(name: "Maceira", status: "Excelente"),
-        Device(name: "Laranjeira", status: "Normal"),
-        Device(name: "Rosas", status: "Excelente"),
-        Device(name: "Orquideas", status: "Normal"),
+        Device(imei: "Salsa"),
+        Device(imei: "Coentros"),
+        Device(imei: "Alface"),
+        Device(imei: "Batatas"),
+        Device(imei: "Maceira"),
+        Device(imei: "Laranjeira"),
+        Device(imei: "Rosas"),
+        Device(imei: "Orquideas"),
     ]
     
     var extimatedWidth = 150
@@ -61,7 +61,7 @@ extension DevicesViewController: UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "DevicesCell", for: indexPath) as! DevicesCell
-        cell.setCellData(name: self.data[indexPath.row].name, status: self.data[indexPath.row].status)
+        cell.setCellData(name: self.data[indexPath.row].imei, status: "self.data[indexPath.row].status?")
         //print("Cell", self.data[indexPath.row].name, self.data[indexPath.row].status)
         return cell
     }

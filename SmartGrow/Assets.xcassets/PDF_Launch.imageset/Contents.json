@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "PDF_Launch.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
