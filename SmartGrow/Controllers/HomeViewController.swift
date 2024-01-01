@@ -9,6 +9,8 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
+    @IBOutlet weak var tableView: UITableView!
+    
     @IBOutlet weak var imgLeft: UINavigationItem!
     
     @IBOutlet weak var imgCenter: UINavigationItem!
@@ -38,6 +40,11 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.dataSource = self
+        tableView.delegate = self
+        
+        tableView.register(DeviceTableViewCell.nib(), forCellReuseIdentifier: DeviceTableViewCell.identifier)
         // Load images from assets
         let NavBar_Home = UIImage(named: "NavBar_Home")
         let NavBar_Logo = UIImage(named: "NavBar_Logo")
@@ -55,3 +62,31 @@ class HomeViewController: UIViewController {
 
 }
 
+
+extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
+    //Selected Item
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //Print Selected item
+        //print(data[indexPath.row])
+        
+        //Navigate to a different Screen
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let view = storyboard.instantiateViewController(withIdentifier: "DetailView")
+        view.navigationItem.title = data[indexPath.row].imei
+        navigationController?.pushViewController(view, animated: true)
+    }
+    
+    //Number of items
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return data.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: DeviceTableViewCell.identifier, for: indexPath) as! DeviceTableViewCell
+        cell.cellImage.image = UIImage(systemName: "square.fill")
+        cell.cellLabel.text = data[indexPath.row].imei
+        return cell
+    }
+    
+    
+}
