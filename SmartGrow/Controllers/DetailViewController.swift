@@ -14,6 +14,8 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var imgRight: UINavigationItem!
     
+    var imei: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
