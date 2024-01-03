@@ -70,10 +70,17 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
         //print(data[indexPath.row])
         
         //Navigate to a different Screen
+        //let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        //let view = storyboard.instantiateViewController(withIdentifier: "DetailView")
+        //view.navigationItem.title = data[indexPath.row].imei
+        //navigationController?.pushViewController(view, animated: true)
+        
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let view = storyboard.instantiateViewController(withIdentifier: "DetailView")
-        view.navigationItem.title = data[indexPath.row].imei
-        navigationController?.pushViewController(view, animated: true)
+            if let detailViewController = storyboard.instantiateViewController(withIdentifier: "DetailView") as? DetailViewController {
+                // Set the imei value on the destination view controller
+                detailViewController.imei = data[indexPath.row].imei                
+                navigationController?.pushViewController(detailViewController, animated: true)
+            }
     }
     
     //Number of items
