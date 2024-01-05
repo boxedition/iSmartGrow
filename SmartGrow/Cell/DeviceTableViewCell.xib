@@ -17,15 +17,15 @@
                 <rect key="frame" x="0.0" y="0.0" width="340" height="80"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1zp-7m-VFh">
-                        <rect key="frame" x="8" y="8" width="128" height="64"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ficus" translatesAutoresizingMaskIntoConstraints="NO" id="1zp-7m-VFh">
+                        <rect key="frame" x="9" y="14" width="53" height="53"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="128" id="NaD-tN-peD"/>
                             <constraint firstAttribute="height" constant="64" id="gPp-lD-dsi"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiX-OF-hHF">
-                        <rect key="frame" x="149" y="29.666666666666671" width="42" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiX-OF-hHF">
+                        <rect key="frame" x="96" y="30" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -47,4 +47,7 @@
             <point key="canvasLocation" x="143.5114503816794" y="1.4084507042253522"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="ficus" width="384" height="384"/>
+    </resources>
 </document>

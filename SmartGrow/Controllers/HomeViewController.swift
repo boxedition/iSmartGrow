@@ -90,7 +90,7 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: DeviceTableViewCell.identifier, for: indexPath) as! DeviceTableViewCell
-        cell.cellImage.image = UIImage(systemName: "square.fill")
+        //cell.cellImage.image = UIImage(systemName: "ficus.fill")
         cell.cellLabel.text = data[indexPath.row].imei
         return cell
     }
